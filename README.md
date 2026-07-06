@@ -43,6 +43,32 @@
 I managed the backend setup for the Tiers SMP project. 
 * **What I did:** Wrote the official server rules, designed the custom welcome system, and set up all the Discord branding so the server looked highly professional from day one.
 
+## 💻 Code Example: How I handle Tickets
+
+Anyone can say they code, so here is a quick look at how I actually write my Discord buttons in Python. 
+
+```python
+class TicketButton(discord.ui.View):
+    def __init__(self):
+        super().__init__(timeout=None) 
+
+    @discord.ui.button(label="Open Ticket", style=discord.ButtonStyle.green, custom_id="ticket_btn")
+    async def make_ticket(self, interaction: discord.Interaction, button: discord.ui.Button):
+        
+        existing = discord.utils.get(interaction.guild.channels, name=f"ticket-{interaction.user.name.lower()}")
+        if existing:
+            return await interaction.response.send_message("You already have a ticket open!", ephemeral=True)
+        
+        # Set up permissions so only staff and the player can see the channel
+        perms = {
+            interaction.guild.default_role: discord.PermissionOverwrite(read_messages=False),
+            interaction.user: discord.PermissionOverwrite(read_messages=True, send_messages=True)
+        }
+        
+        # Make the channel
+        new_channel = await interaction.guild.create_text_channel(name=f"ticket-{interaction.user.name}", overwrites=perms)
+        await interaction.response.send_message(f"Ticket created: {new_channel.mention}", ephemeral=True)
+
 ---
 
 
