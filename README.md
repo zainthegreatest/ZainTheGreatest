@@ -25,7 +25,20 @@
 
 ## 🚀 Projects
 
-### 🤖 ForgedMC Bot
+## ⚙️ Minecraft 
+* **Server Software:** Spigot, Paper, and running optimized setups for competitive networks.
+* **Version Optimization:** Experienced in getting older versions like 1.8.9 to run smoothly on modern Java runtimes for peak performance.
+* **Player Experience Tuning:** Adjusting game settings to ensure low input latency and stable hit registration for competitive PvP modes like Bedwars and Sumo.
+
+### ⚡ Lag Reduction & Game Performance
+* **Fixing Tick Spikes:** I configure server-side files to eliminate game lag and stuttering, specifically tuning resource usage so the server stays at a stable 20 TPS even during heavy fights.
+* **Low-End Hardware Tweaks:** I have hands on experience optimizing game performance and system setups for players on lower-end computers, ensuring they get the absolute maximum FPS and zero input delay.
+
+### ⚡ Systems Optimization & JVM Performance.
+* **Runtime Tuning:** Developed and tested optimized Java Virtual Machine (JVM) flags to maximize garbage collection efficiency and eliminate server-side stuttring.
+* **Resource Optimization:** Applied kernel-level OS tweaks to minimize system background processing, directly improving input latency and network throughput for competitive environments.
+
+### ⚙️ Discord
 *I have developed a custom most powerful discord bot for ForgedMC*
 * **Development:** I have developed a custom bot for ForgedMC.
 * **Functions:** Custom Tickets, powerful Automod, anti-spam, anti-raid, moderation and music bot. 
@@ -34,10 +47,6 @@
 *I've deployed a custom tier testing for Cracked Tier Tests & which manages all the system automatically.*
 * **Logic & Data:** It inclues Support Tickets, Tier testing tickets and custom suggestions.
 * **Impact:** Reduced staff administration overhead.
-
-### ⚡ Systems Optimization & JVM Performance.
-* **Runtime Tuning:** Developed and tested optimized Java Virtual Machine (JVM) flags to maximize garbage collection efficiency and eliminate server-side stuttring.
-* **Resource Optimization:** Applied kernel-level OS tweaks to minimize system background processing, directly improving input latency and network throughput for competitive environments.
 
 ### ⚔️ Tiers SMP Setup & Management
 I managed the backend setup for the Tiers SMP project. 
