@@ -4,10 +4,6 @@
 🛠️ Specialized Python development, backend configuration, and system optimizations.
 💼 **2+ Years of Experience** developing community utilities 
 
-🎮 **Software Developer & Systems Administrator**
-🛠️ Specialized in asynchronous Python development, backend automation, and low-latency network infrastructure.
-💼 **2+ Years of Experience** developing community utilities and managing performance enviroments.
-
 ---
 
 ## 🧠 Technical Stack
