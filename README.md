@@ -30,7 +30,7 @@
 * **Development:** I have developed a custom bot for ForgedMC.
 * **Functions:** Custom Tickets, powerful Automod, anti-spam, anti-raid, moderation and music bot. 
 
-### 📊 Cracked Tier Tests Engine
+### 📊 Cracked Tier Tests 
 *I've deployed a custom tier testing for Cracked Tier Tests & which manages all the system automatically.*
 * **Logic & Data:** It inclues Support Tickets, Tier testing tickets and custom suggestions.
 * **Impact:** Reduced staff administration overhead.
