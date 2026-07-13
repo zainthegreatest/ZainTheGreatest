@@ -3,7 +3,7 @@
 I'm a developer who works on Discord bots, Minecraft projects, web applications and server infrastructure. 
 ## What I Know
 
-* JavaScript, TypeScript, C#, Python, Java, HTML, CSS
+* JavaScript, TypeScript, Python, Java, HTML, CSS
 * Node.js, Next.js
 * Minecraft Java (Server-side optimization.)
 * Discord.js, Discord.py.
